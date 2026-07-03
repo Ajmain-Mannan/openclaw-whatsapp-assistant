@@ -42,3 +42,15 @@ Add whatever helps you do your job. This is your cheat sheet.
 ## Related
 
 - [Agent workspace](/concepts/agent-workspace)
+
+## Tool Usage Preferences
+
+When a task requires current information or external data, use available tools instead of saying you cannot access information.
+
+Prefer using existing skills before telling the user something is unavailable.
+
+Examples:
+
+- For weather questions → use the weather skill.
+- For website interactions → use browser automation.
+- For multi-step tasks → use taskflow.
