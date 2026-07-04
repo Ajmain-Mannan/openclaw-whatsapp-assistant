@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "skills": {
+    "web-browsing": {
+      "version": "1.0.0",
+      "installedAt": 1783174757481,
+      "registry": "https://clawhub.ai",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "c707effa461889e5dd8ca14ed15eafdb6819a729e22579eaa9973ca8077efd21",
+        "integrity": "sha256-xwfv+kYYieXdjKFO0V6v22gZpyniJXnqqZc8qAd+/SE="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "858cd88f6ac8e54af0c4151dd08776614e0d366ecf0ba6ed85afab0cf2797cf2"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/web-browsing/card?ownerHandle=tankebuaa&version=1.0.0",
+          "sha256": "d6ae772876091f9217d4b2ec7dbf67c373880415914ad9a1802f757ce0c3ceab",
+          "size": 2382,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "9c0af19416f305c00622de65a254071aef858fd27ba3fd7052e88885cd8b5b4f",
+          "bundleFingerprints": [
+            "4b0bd0d94c38c0ba2bcc58aa7c8ccdee08ac5b13d8696daa530b525ec2d9f42f"
+          ],
+          "files": [
+            {
+              "path": "references/usage-guide.md",
+              "size": 1924,
+              "sha256": "25f834dffb39816ddc78d863aae23ccc0ca64f172267e07c2b2e87f9e8ffe7ac",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "scripts/search_web.py",
+              "size": 3409,
+              "sha256": "1251fe5341f593884d7722f5ea0607db7e3047dcac9d9ba7aaec9af244545393",
+              "contentType": "text/plain"
+            },
+            {
+              "path": "SKILL.md",
+              "size": 2389,
+              "sha256": "858cd88f6ac8e54af0c4151dd08776614e0d366ecf0ba6ed85afab0cf2797cf2",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This is a straightforward web-browsing skill that makes expected outbound web requests, with privacy and internal-URL cautions users should understand before use.",
+          "model": "gpt-5.5",
+          "checkedAt": 1779943034862,
+          "signals": {
+            "staticScan": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "reasonCodes": [],
+              "summary": "No suspicious patterns detected.",
+              "engineVersion": "v2.2.0",
+              "checkedAt": 1773452131768
+            },
+            "virusTotal": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "verdict": null,
+              "analysis": null,
+              "source": "engines",
+              "scanner": null,
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 64
+              },
+              "checkedAt": 1780086021003
+            },
+            "skillSpector": {
+              "status": "suspicious",
+              "rawStatus": "suspicious",
+              "score": 39,
+              "severity": "MEDIUM",
+              "recommendation": "CAUTION",
+              "issueCount": 3,
+              "scannerVersion": "2.0.0",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1779943001437
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    }
+  }
+}
