@@ -1,0 +1,1 @@
+Ajmain prefers UK retailers for shopping. He also prefers prices in GBP (£), and for web searches, I should include "UK" or "United Kingdom" and prioritise UK domains (.co.uk) and UK versions of retailers. I should avoid US pricing, retailers, and availability unless specifically requested.
